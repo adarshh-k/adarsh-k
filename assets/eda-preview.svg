@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="50%" stop-color="#141932"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="chartBar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="chartBar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="340" fill="url(#edaBg)" rx="16"/>
+
+  <!-- Analytics Dashboard Container -->
+  <rect x="25" y="25" width="550" height="290" rx="14" fill="#0c1222" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+  <!-- Dashboard Top Bar -->
+  <rect x="25" y="25" width="550" height="40" rx="14" fill="#131b2e"/>
+  <circle cx="48" cy="45" r="5" fill="#f43f5e"/>
+  <circle cx="64" cy="45" r="5" fill="#eab308"/>
+  <circle cx="80" cy="45" r="5" fill="#10b981"/>
+  <text x="110" y="49" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10.5">exploratory_data_analysis.ipynb — Python 3.x (pandas, seaborn)</text>
+
+  <!-- Left Main Chart: Distribution & Histograms -->
+  <g transform="translate(45, 80)">
+    <rect x="0" y="0" width="310" height="215" rx="10" fill="#111827" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="16" y="24" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">Feature Distribution & Variance</text>
+    <text x="16" y="38" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="8.5">Null Value Checks: 0 Found | Skewness Handled</text>
+
+    <!-- Grid lines -->
+    <line x1="20" y1="65" x2="290" y2="65" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    <line x1="20" y1="105" x2="290" y2="105" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    <line x1="20" y1="145" x2="290" y2="145" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    <line x1="20" y1="185" x2="290" y2="185" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+    <!-- Bars -->
+    <rect x="35" y="115" width="22" height="70" rx="4" fill="url(#chartBar1)"/>
+    <rect x="68" y="90" width="22" height="95" rx="4" fill="url(#chartBar2)"/>
+    <rect x="101" y="65" width="22" height="120" rx="4" fill="url(#chartBar1)"/>
+    <rect x="134" y="80" width="22" height="105" rx="4" fill="url(#chartBar2)"/>
+    <rect x="167" y="125" width="22" height="60" rx="4" fill="url(#chartBar1)"/>
+    <rect x="200" y="140" width="22" height="45" rx="4" fill="url(#chartBar2)"/>
+    <rect x="233" y="155" width="22" height="30" rx="4" fill="url(#chartBar1)"/>
+    <rect x="266" y="165" width="16" height="20" rx="4" fill="url(#chartBar2)"/>
+
+    <!-- Trend Curve -->
+    <path d="M 46 120 Q 112 50 145 75 T 274 165" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Top Box: Correlation Heatmap snippet -->
+  <g transform="translate(370, 80)">
+    <rect x="0" y="0" width="185" height="100" rx="10" fill="#111827" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="14" y="20" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="10.5" font-weight="700">Correlation Heatmap</text>
+    
+    <!-- Heatmap Matrix Cells -->
+    <rect x="14" y="32" width="24" height="16" rx="2" fill="#8b5cf6" opacity="0.95"/>
+    <rect x="42" y="32" width="24" height="16" rx="2" fill="#06b6d4" opacity="0.65"/>
+    <rect x="70" y="32" width="24" height="16" rx="2" fill="#6366f1" opacity="0.8"/>
+    <rect x="98" y="32" width="24" height="16" rx="2" fill="#ec4899" opacity="0.5"/>
+    <rect x="126" y="32" width="24" height="16" rx="2" fill="#8b5cf6" opacity="0.3"/>
+
+    <rect x="14" y="52" width="24" height="16" rx="2" fill="#06b6d4" opacity="0.65"/>
+    <rect x="42" y="52" width="24" height="16" rx="2" fill="#8b5cf6" opacity="0.95"/>
+    <rect x="70" y="52" width="24" height="16" rx="2" fill="#06b6d4" opacity="0.45"/>
+    <rect x="98" y="52" width="24" height="16" rx="2" fill="#8b5cf6" opacity="0.75"/>
+    <rect x="126" y="52" width="24" height="16" rx="2" fill="#ec4899" opacity="0.4"/>
+
+    <rect x="14" y="72" width="24" height="16" rx="2" fill="#6366f1" opacity="0.8"/>
+    <rect x="42" y="72" width="24" height="16" rx="2" fill="#06b6d4" opacity="0.45"/>
+    <rect x="70" y="72" width="24" height="16" rx="2" fill="#8b5cf6" opacity="0.95"/>
+    <rect x="98" y="72" width="24" height="16" rx="2" fill="#06b6d4" opacity="0.55"/>
+    <rect x="126" y="72" width="24" height="16" rx="2" fill="#6366f1" opacity="0.85"/>
+  </g>
+
+  <!-- Right Bottom Box: Summary Metrics -->
+  <g transform="translate(370, 192)">
+    <rect x="0" y="0" width="185" height="103" rx="10" fill="#111827" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="14" y="20" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="10.5" font-weight="700">Data Quality Metrics</text>
+    
+    <rect x="14" y="32" width="72" height="30" rx="6" fill="#1e1b4b"/>
+    <text x="20" y="44" fill="#a78bfa" font-family="'Inter', sans-serif" font-size="7.5" font-weight="600">CLEANED</text>
+    <text x="20" y="56" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700">100% Valid</text>
+
+    <rect x="94" y="32" width="75" height="30" rx="6" fill="#0c4a6e"/>
+    <text x="100" y="44" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="7.5" font-weight="600">OUTLIERS</text>
+    <text x="100" y="56" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700">IQR Filtered</text>
+
+    <!-- Tech tags -->
+    <text x="14" y="85" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="8">✓ df.describe() • sns.pairplot()</text>
+  </g>
+</svg>

@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adarsh K. | Aspiring Data Analyst &amp; Data Analytics Intern</title>
+  <meta name="description" content="Professional portfolio of Adarsh K., an aspiring Data Analyst and Data Analytics Intern at Softronics, Calicut. Specializing in Python, SQL, Pandas, EDA, and Data Visualization.">
+  <meta name="author" content="Adarsh K.">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Adarsh K. | Aspiring Data Analyst Portfolio">
+  <meta property="og:description" content="Computer Science graduate &amp; Data Analytics Intern at Softronics, Calicut. Explore my skills, internship experience, and analytics projects.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome 6.5.1 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+  <!-- ========================================================================
+       STICKY / FIXED NAVBAR
+       ======================================================================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top" id="mainNavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home" id="navLogo">
+          adarsh<span class="brand-dot">.</span>
+        </a>
+        
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarTogglerBtn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home" id="navHome">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" id="navAbout">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" id="navSkills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience" id="navExperience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" id="navProjects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education" id="navEducation">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" id="navContact">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a href="#" class="btn-primary-custom py-2 px-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#resumeModal" id="navResumeBtn">
+                <i class="fa-solid fa-file-arrow-down"></i> Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Hero Text Content -->
+          <div class="col-lg-7 text-center text-lg-start">
+            <div class="hero-status-pill">
+              <span class="status-indicator"></span>
+              <span>DATA ANALYTICS INTERN · CALICUT, KERALA</span>
+            </div>
+
+            <div class="hero-greeting">Welcome to my portfolio</div>
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Adarsh K.</span>
+            </h1>
+
+            <div class="hero-role-wrapper">
+              <span class="hero-role">Aspiring Data Analyst</span>
+            </div>
+
+            <p class="hero-description">
+              I turn raw data into meaningful insights through data cleaning, exploratory analysis, SQL, and visualization. I am currently developing my practical analytics skills at Softronics, Calicut.
+            </p>
+
+            <div class="hero-cta-group justify-content-center justify-content-lg-start">
+              <a href="#projects" class="btn-primary-custom" id="heroExploreBtn">
+                <i class="fa-solid fa-chart-simple"></i> Explore My Projects
+              </a>
+              <a href="#contact" class="btn-secondary-custom" id="heroContactBtn">
+                <i class="fa-regular fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+
+            <div class="hero-socials justify-content-center justify-content-lg-start">
+              <span class="social-label">Connect:</span>
+              <!-- Customizable social links -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="GitHub Profile (Placeholder)" title="GitHub: Replace with your URL" id="heroGithubLink">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="LinkedIn Profile (Placeholder)" title="LinkedIn: Replace with your URL" id="heroLinkedinLink">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="Instagram Profile (Placeholder)" title="Instagram: Replace with your URL" id="heroInstagramLink">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="mailto:adarshk@example.com" class="btn-icon-custom" aria-label="Send Email (Placeholder)" title="Email: adarshk@example.com" id="heroEmailLink">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Avatar Card -->
+          <div class="col-lg-5">
+            <div class="hero-visual-container">
+              <div class="avatar-halo">
+                <div class="avatar-inner">
+                  <!-- Vector avatar with initials AK (easily swappable with photo in assets/) -->
+                  <img src="assets/avatar-ak.svg" alt="Adarsh K. - Professional Profile Graphic" class="avatar-img" id="heroAvatarImg">
+                </div>
+              </div>
+
+              <!-- Floating Tech Badges -->
+              <div class="floating-badge badge-1">
+                <i class="fa-brands fa-python" style="color: #38bdf8;"></i>
+                <span>Python &amp; Pandas</span>
+              </div>
+              <div class="floating-badge badge-2">
+                <i class="fa-solid fa-database" style="color: #06b6d4;"></i>
+                <span>MySQL Querying</span>
+              </div>
+              <div class="floating-badge badge-3">
+                <i class="fa-solid fa-chart-pie" style="color: #f59e0b;"></i>
+                <span>Power BI &amp; Viz</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         ABOUT ME SECTION
+         ======================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-user-astronaut"></i> About Me
+          </div>
+          <h2 class="section-title">Turning Curiosity into Insights</h2>
+          <p class="section-subtitle">
+            A Computer Science graduate eager to uncover patterns, solve problems, and communicate data-driven narratives.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Main Narrative Column -->
+          <div class="col-lg-7">
+            <div class="glass-card about-intro-card">
+              <h3 class="h4 text-white mb-3 fw-bold">
+                Passionate About Practical Analytics
+              </h3>
+              <p class="about-paragraph">
+                I am a Computer Science graduate currently gaining practical experience in Data Analytics at Softronics, Calicut. I enjoy working with data, identifying patterns, cleaning datasets, performing exploratory data analysis, and creating meaningful visualizations.
+              </p>
+              <p class="about-paragraph">
+                I completed my B.Sc. in Computer Science at the College of Applied Science, Calicut. My interest in data analytics has helped me develop skills in Python, SQL, Excel, data manipulation, and data visualization. I enjoy learning new technologies, collaborating with team members, and solving problems through data-driven approaches.
+              </p>
+
+              <!-- Career Objective Box -->
+              <div class="objective-box">
+                <h5><i class="fa-solid fa-bullseye me-2"></i> Career Objective</h5>
+                <p>
+                  "My goal is to become a skilled Data Analyst who can transform raw data into meaningful insights that support better decision-making. I want to strengthen my analytical thinking, build practical projects, and continue learning industry-relevant tools and technologies."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 Compact Highlights Column -->
+          <div class="col-lg-5">
+            <div class="d-flex flex-column gap-3 h-100">
+              <!-- Card 1: Education -->
+              <div class="glass-card info-card">
+                <div class="info-card-icon purple">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h4>Education</h4>
+                <div class="card-subtitle">B.Sc. Computer Science (2023–2026)</div>
+                <p>College of Applied Science, Calicut. Built foundational computer science knowledge and applied software projects.</p>
+              </div>
+
+              <!-- Card 2: Current Experience -->
+              <div class="glass-card info-card">
+                <div class="info-card-icon cyan">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h4>Current Experience</h4>
+                <div class="card-subtitle">Data Analytics Intern @ Softronics</div>
+                <p>Hands-on practice with dataset exploration, Python analytics libraries, database querying, and dashboard reporting in Calicut.</p>
+              </div>
+
+              <!-- Card 3: Working Style -->
+              <div class="glass-card info-card">
+                <div class="info-card-icon emerald">
+                  <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <h4>Working Style</h4>
+                <div class="card-subtitle">Teamwork &amp; Continuous Learning</div>
+                <p>Collaborative mindset with close attention to detail when working with datasets and improving analytical communication.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         TECHNICAL SKILLS SECTION
+         ======================================================================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-layer-group"></i> Technical Toolkit
+          </div>
+          <h2 class="section-title">Technical Skills &amp; Core Tools</h2>
+          <p class="section-subtitle">
+            Organized categories of tools and libraries applied in practical data analytics, querying, and development.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- 1. Programming and Data Analysis -->
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card skill-category-card">
+              <div class="category-header">
+                <div class="category-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <h3 class="category-title">Programming &amp; Analysis</h3>
+              </div>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-brands fa-python skill-brand-icon python"></i>
+                    <span class="skill-name">Python</span>
+                  </div>
+                  <span class="skill-tag">Core Language</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-table-cells-large skill-brand-icon pandas"></i>
+                    <span class="skill-name">Pandas</span>
+                  </div>
+                  <span class="skill-tag">Data Wrangling</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-cubes skill-brand-icon numpy"></i>
+                    <span class="skill-name">NumPy</span>
+                  </div>
+                  <span class="skill-tag">Array Computing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Data Visualization -->
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card skill-category-card">
+              <div class="category-header">
+                <div class="category-icon" style="color: var(--accent-pink);">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3 class="category-title">Data Visualization</h3>
+              </div>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-chart-column skill-brand-icon chart"></i>
+                    <span class="skill-name">Matplotlib</span>
+                  </div>
+                  <span class="skill-tag">Statistical Plots</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-chart-area skill-brand-icon chart"></i>
+                    <span class="skill-name">Seaborn</span>
+                  </div>
+                  <span class="skill-tag">Distribution Charts</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-chart-pie skill-brand-icon powerbi"></i>
+                    <span class="skill-name">Power BI</span>
+                  </div>
+                  <span class="skill-tag">Interactive Dashboards</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Database -->
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card skill-category-card">
+              <div class="category-header">
+                <div class="category-icon" style="color: var(--accent-cyan);">
+                  <i class="fa-solid fa-database"></i>
+                </div>
+                <h3 class="category-title">Database &amp; Querying</h3>
+              </div>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-server skill-brand-icon mysql"></i>
+                    <span class="skill-name">MySQL</span>
+                  </div>
+                  <span class="skill-tag">Relational DBMS</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-filter skill-brand-icon mysql"></i>
+                    <span class="skill-name">SQL Joins &amp; Aggregates</span>
+                  </div>
+                  <span class="skill-tag">Data Extraction</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-table-list skill-brand-icon mysql"></i>
+                    <span class="skill-name">Relational Schema</span>
+                  </div>
+                  <span class="skill-tag">Structured Data</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Spreadsheet Analysis -->
+          <div class="col-lg-6 col-md-6">
+            <div class="glass-card skill-category-card">
+              <div class="category-header">
+                <div class="category-icon" style="color: #10b981;">
+                  <i class="fa-solid fa-file-excel"></i>
+                </div>
+                <h3 class="category-title">Spreadsheet Analysis</h3>
+              </div>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-file-excel skill-brand-icon excel"></i>
+                    <span class="skill-name">Microsoft Excel</span>
+                  </div>
+                  <span class="skill-tag">Workbook Analysis</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-calculator skill-brand-icon excel"></i>
+                    <span class="skill-name">Formulas &amp; Functions</span>
+                  </div>
+                  <span class="skill-tag">VLOOKUP / XLOOKUP</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-chart-gantt skill-brand-icon excel"></i>
+                    <span class="skill-name">Pivot Tables &amp; Charts</span>
+                  </div>
+                  <span class="skill-tag">Summary Tables</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Development & Productivity Tools -->
+          <div class="col-lg-6 col-md-12">
+            <div class="glass-card skill-category-card">
+              <div class="category-header">
+                <div class="category-icon" style="color: #f97316;">
+                  <i class="fa-solid fa-toolbox"></i>
+                </div>
+                <h3 class="category-title">Development &amp; Tools</h3>
+              </div>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-brands fa-github skill-brand-icon git"></i>
+                    <span class="skill-name">GitHub</span>
+                  </div>
+                  <span class="skill-tag">Version Control</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-book-bookmark skill-brand-icon jupyter"></i>
+                    <span class="skill-name">Jupyter Notebook</span>
+                  </div>
+                  <span class="skill-tag">Interactive Notebooks</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <i class="fa-solid fa-code-merge skill-brand-icon vscode"></i>
+                    <span class="skill-name">Visual Studio Code</span>
+                  </div>
+                  <span class="skill-tag">Primary Editor</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         INTERNSHIP & EXPERIENCE SECTION
+         ======================================================================== -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-briefcase"></i> Experience
+          </div>
+          <h2 class="section-title">Internship Experience</h2>
+          <p class="section-subtitle">
+            Current practical experience gaining hands-on exposure to data workflows, analytical tooling, and real datasets.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="glass-card experience-card-featured">
+              <div class="exp-badge-active">
+                <span class="status-indicator"></span> CURRENT INTERNSHIP
+              </div>
+
+              <div class="exp-header-row">
+                <div>
+                  <h3 class="exp-position text-white">Data Analytics Intern</h3>
+                  <div class="exp-org-line">
+                    <i class="fa-solid fa-building me-2"></i>Softronics
+                    <span class="text-secondary mx-2">•</span>
+                    <i class="fa-solid fa-location-dot me-1 text-secondary"></i>
+                    <span class="text-secondary">Calicut, Kerala, India</span>
+                  </div>
+                </div>
+
+                <div class="exp-period-pill">
+                  <i class="fa-regular fa-calendar me-1"></i>
+                  <!-- Editable start date placeholder -->
+                  <span>Start Date: [Customizable] — Present</span>
+                </div>
+              </div>
+
+              <p class="exp-summary">
+                Currently developing practical data analytics skills through hands-on learning and analytical projects. Working with Python, Pandas, NumPy, data visualization libraries, MySQL, Excel, and related analytical tools.
+              </p>
+
+              <div class="exp-activities-title">
+                <i class="fa-solid fa-list-check me-2 text-primary"></i> Practical Learning &amp; Work Activities
+              </div>
+
+              <div class="exp-activity-grid">
+                <div class="activity-item">
+                  <i class="fa-solid fa-broom"></i>
+                  <span>Data cleaning and preprocessing</span>
+                </div>
+                <div class="activity-item">
+                  <i class="fa-solid fa-magnifying-glass-chart"></i>
+                  <span>Exploratory Data Analysis (EDA)</span>
+                </div>
+                <div class="activity-item">
+                  <i class="fa-solid fa-chart-pie"></i>
+                  <span>Data visualization &amp; chart design</span>
+                </div>
+                <div class="activity-item">
+                  <i class="fa-solid fa-terminal"></i>
+                  <span>SQL querying and data filtering</span>
+                </div>
+                <div class="activity-item">
+                  <i class="fa-solid fa-database"></i>
+                  <span>Working with analytical datasets</span>
+                </div>
+                <div class="activity-item">
+                  <i class="fa-solid fa-comments"></i>
+                  <span>Communicating findings through charts &amp; summaries</span>
+                </div>
+              </div>
+
+              <div class="exp-tech-chips">
+                <span class="chips-label">Applied Technologies:</span>
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Pandas</span>
+                <span class="tech-chip">NumPy</span>
+                <span class="tech-chip">Matplotlib</span>
+                <span class="tech-chip">Seaborn</span>
+                <span class="tech-chip">MySQL</span>
+                <span class="tech-chip">Microsoft Excel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PROJECTS SECTION
+         ======================================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-folder-open"></i> Portfolio Projects
+          </div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Demonstrating problem-solving, mobile application development, and practical data analysis.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Project 1: Road Guardian -->
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card project-card" id="projectCardRoadGuardian">
+              <div class="project-image-box">
+                <img src="assets/road-guardian-preview.svg" alt="Road Guardian Android Application Preview" loading="lazy">
+                <div class="project-category-badge">
+                  <i class="fa-brands fa-android me-1"></i> Academic Degree Project
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Road Guardian</h3>
+                <p class="project-desc">
+                  Road Guardian is an Android application developed using Android Studio to help people report road-related problems such as damaged roads and waterlogging. Users can capture a photograph of the affected location and submit the report through the application to the relevant authority. Once the issue is resolved, the user can receive a notification or message confirming the update.
+                </p>
+
+                <ul class="project-features-list">
+                  <li><i class="fa-solid fa-check"></i> Report road damage &amp; surface issues</li>
+                  <li><i class="fa-solid fa-check"></i> Submit photographs of road problems</li>
+                  <li><i class="fa-solid fa-check"></i> Report waterlogging incidents</li>
+                  <li><i class="fa-solid fa-check"></i> Send issue details to relevant authority</li>
+                  <li><i class="fa-solid fa-check"></i> Track issue resolution updates</li>
+                </ul>
+
+                <div class="project-tech-tags">
+                  <span class="project-tag">Android Studio</span>
+                  <span class="project-tag">Android SDK</span>
+                  <span class="project-tag">Java / Kotlin [Editable]</span>
+                  <span class="project-tag">XML Layouts</span>
+                  <span class="project-tag">DB [Editable]</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <button type="button" class="btn-primary-custom py-2 px-3 text-sm" data-bs-toggle="modal" data-bs-target="#projectModal1" id="btnDetailsRoadGuardian">
+                    <i class="fa-solid fa-circle-info"></i> Learn More
+                  </button>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-secondary-custom py-2 px-3 text-sm" title="Editable GitHub Repo Link (Placeholder)" id="btnGithubRoadGuardian">
+                    <i class="fa-brands fa-github"></i> Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Exploratory Data Analysis (EDA) -->
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card project-card" id="projectCardEDA">
+              <div class="project-image-box">
+                <img src="assets/eda-preview.svg" alt="Exploratory Data Analysis Preview" loading="lazy">
+                <div class="project-category-badge">
+                  <i class="fa-solid fa-chart-simple me-1"></i> Internship Learning Project
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Exploratory Data Analysis (EDA)</h3>
+                <p class="project-desc">
+                  Performed Exploratory Data Analysis on a dataset to understand its structure, inspect data quality, identify patterns, and extract useful insights. Used Python-based data analysis techniques and visualizations to explore relationships between variables and communicate findings.
+                </p>
+
+                <ul class="project-features-list">
+                  <li><i class="fa-solid fa-check"></i> Dataset inspection &amp; structural audits</li>
+                  <li><i class="fa-solid fa-check"></i> Missing-value &amp; null analysis</li>
+                  <li><i class="fa-solid fa-check"></i> Duplicate &amp; inconsistent-value checks</li>
+                  <li><i class="fa-solid fa-check"></i> Descriptive statistics calculation</li>
+                  <li><i class="fa-solid fa-check"></i> Pattern identification via charts</li>
+                </ul>
+
+                <div class="project-tech-tags">
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">Pandas</span>
+                  <span class="project-tag">NumPy</span>
+                  <span class="project-tag">Matplotlib</span>
+                  <span class="project-tag">Seaborn</span>
+                  <span class="project-tag">Jupyter Notebook</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <button type="button" class="btn-primary-custom py-2 px-3 text-sm" data-bs-toggle="modal" data-bs-target="#projectModal2" id="btnDetailsEDA">
+                    <i class="fa-solid fa-circle-info"></i> Learn More
+                  </button>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-secondary-custom py-2 px-3 text-sm" title="Editable Notebook / Repo Link (Placeholder)" id="btnGithubEDA">
+                    <i class="fa-brands fa-github"></i> Notebook
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: SQL Data Analysis (Placeholder) -->
+          <div class="col-lg-4 col-md-12">
+            <div class="glass-card project-card" id="projectCardSQL">
+              <div class="project-image-box">
+                <img src="assets/sql-preview.svg" alt="SQL Data Analysis Project Preview" loading="lazy">
+                <div class="project-category-badge">
+                  <i class="fa-solid fa-database me-1"></i> Database | Analytics
+                </div>
+                <div class="project-placeholder-badge">
+                  <i class="fa-solid fa-pen-to-square me-1"></i> Editable Template
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">SQL Data Analysis</h3>
+                <p class="project-desc">
+                  A data analysis project using MySQL to explore structured datasets, summarize information, apply joins and aggregations, and answer analytical questions using SQL. Prepared as a structured template ready to integrate your specific dataset findings.
+                </p>
+
+                <ul class="project-features-list">
+                  <li><i class="fa-solid fa-check"></i> Structured data import &amp; table schema setup</li>
+                  <li><i class="fa-solid fa-check"></i> Aggregate functions (COUNT, SUM, AVG)</li>
+                  <li><i class="fa-solid fa-check"></i> Multi-table INNER &amp; LEFT JOIN queries</li>
+                  <li><i class="fa-solid fa-check"></i> Group-level metrics &amp; filtering (HAVING)</li>
+                  <li><i class="fa-solid fa-check"></i> Subqueries &amp; analytical question resolution</li>
+                </ul>
+
+                <div class="project-tech-tags">
+                  <span class="project-tag">MySQL</span>
+                  <span class="project-tag">SQL</span>
+                  <span class="project-tag">Aggregate Functions</span>
+                  <span class="project-tag">Joins</span>
+                  <span class="project-tag">CTEs / Subqueries</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <button type="button" class="btn-primary-custom py-2 px-3 text-sm" data-bs-toggle="modal" data-bs-target="#projectModal3" id="btnDetailsSQL">
+                    <i class="fa-solid fa-circle-info"></i> Learn More
+                  </button>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-secondary-custom py-2 px-3 text-sm" title="Editable SQL Script Link (Placeholder)" id="btnGithubSQL">
+                    <i class="fa-brands fa-github"></i> Queries
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         EDUCATION SECTION
+         ======================================================================== -->
+    <section class="education-section" id="education">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-graduation-cap"></i> Academic Path
+          </div>
+          <h2 class="section-title">Education &amp; Qualifications</h2>
+          <p class="section-subtitle">
+            Formal education foundation in Computer Science principles, systems, and software fundamentals.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Item 1: Bachelor Degree -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-content-card">
+              <div class="timeline-meta-row">
+                <h3 class="timeline-degree">Bachelor of Science in Computer Science (B.Sc.)</h3>
+                <span class="timeline-period">2023 – 2026</span>
+              </div>
+              <div class="timeline-institution">
+                <i class="fa-solid fa-school me-2"></i>College of Applied Science, Calicut
+              </div>
+              <p class="timeline-desc">
+                Completed undergraduate studies in Computer Science and developed <strong>Road Guardian</strong> as an academic degree project. Covered core subjects in computing, algorithms, programming paradigms, and database principles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Higher Secondary -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-content-card">
+              <div class="timeline-meta-row">
+                <h3 class="timeline-degree">Higher Secondary Education</h3>
+                <span class="timeline-period">2021 – 2023</span>
+              </div>
+              <div class="timeline-institution">
+                <i class="fa-solid fa-school me-2"></i>Rahmania HSS, Medical College, Calicut
+              </div>
+              <p class="timeline-desc">
+                Completed higher secondary education in Calicut, developing analytical thinking, mathematical foundation, and interest in technology and computer science.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         WHAT I BRING / APPROACH SECTION
+         ======================================================================== -->
+    <section class="highlights-section" id="strengths">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-lightbulb"></i> My Approach
+          </div>
+          <h2 class="section-title">What I Bring to a Team</h2>
+          <p class="section-subtitle">
+            Core personal strengths, work ethics, and the mindset I bring to analytical problem-solving.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <h4>Analytical Problem-Solving</h4>
+              <p>
+                Approaching datasets systematically with curiosity to diagnose discrepancies, isolate patterns, and derive clarity.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box" style="color: var(--accent-cyan-light); border-color: rgba(6,182,212,0.3); background: rgba(6,182,212,0.12);">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <h4>Continuous Learning</h4>
+              <p>
+                A proactive willingness to master new tools, libraries, analytical methodologies, and industry best practices.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box" style="color: #34d399; border-color: rgba(16,185,129,0.3); background: rgba(16,185,129,0.12);">
+                <i class="fa-solid fa-handshake-angle"></i>
+              </div>
+              <h4>Teamwork &amp; Collaboration</h4>
+              <p>
+                Working effectively alongside team members, listening actively, and aligning analytical goals with team targets.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box" style="color: #fbbf24; border-color: rgba(245,158,11,0.3); background: rgba(245,158,11,0.12);">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <h4>Attention to Detail</h4>
+              <p>
+                Rigorously inspecting datasets for missing values, duplicates, outliers, and formatting inconsistencies to ensure reliability.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box" style="color: #f43f5e; border-color: rgba(244,63,94,0.3); background: rgba(244,63,94,0.12);">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <h4>Improving Communication</h4>
+              <p>
+                Translating data outputs into intuitive visuals and clear language that both technical and non-technical stakeholders understand.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         CONTACT SECTION
+         ======================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">
+            <i class="fa-solid fa-paper-plane"></i> Get in Touch
+          </div>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            Interested in discussing data analytics, internships, or professional opportunities? Drop a message or reach out through my links.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Left Column: Contact Information -->
+          <div class="col-lg-5">
+            <div class="glass-card contact-info-panel">
+              <div>
+                <h3>Start a Conversation</h3>
+                <p class="contact-intro">
+                  Whether you have an internship opportunity, a project collaboration idea, or feedback on my work, I would be glad to hear from you.
+                </p>
+
+                <div class="contact-details-list">
+                  <!-- Email -->
+                  <div class="contact-detail-item">
+                    <div class="contact-item-icon">
+                      <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Email Address</div>
+                      <a href="mailto:adarshk@example.com" class="contact-item-value" id="contactEmailDisplay">
+                        adarshk@example.com
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Location -->
+                  <div class="contact-detail-item">
+                    <div class="contact-item-icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Location</div>
+                      <div class="contact-item-value">Calicut, Kerala, India</div>
+                    </div>
+                  </div>
+
+                  <!-- Status -->
+                  <div class="contact-detail-item">
+                    <div class="contact-item-icon">
+                      <i class="fa-solid fa-id-badge"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Current Role</div>
+                      <div class="contact-item-value">Data Analytics Intern at Softronics</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div>
+                <div class="contact-item-label mb-2">Social Profiles:</div>
+                <div class="d-flex gap-2">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="GitHub Profile Placeholder" title="GitHub Profile" id="contactGithubLink">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="LinkedIn Profile Placeholder" title="LinkedIn Profile" id="contactLinkedinLink">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="Instagram Profile Placeholder" title="Instagram Profile" id="contactInstagramLink">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="col-lg-7">
+            <div class="glass-card contact-form-panel">
+              <h3 class="h4 text-white fw-bold mb-3">Send a Message</h3>
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <!-- Name Input -->
+                  <div class="col-md-6">
+                    <label for="contactName" class="form-label-custom">Your Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control-custom" id="contactName" name="name" placeholder="e.g. John Doe" required>
+                    <div class="form-feedback" id="nameFeedback">Please enter your name (at least 2 characters).</div>
+                  </div>
+
+                  <!-- Email Input -->
+                  <div class="col-md-6">
+                    <label for="contactEmail" class="form-label-custom">Your Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control-custom" id="contactEmail" name="email" placeholder="e.g. john@example.com" required>
+                    <div class="form-feedback" id="emailFeedback">Please enter a valid email address.</div>
+                  </div>
+
+                  <!-- Subject Input -->
+                  <div class="col-12">
+                    <label for="contactSubject" class="form-label-custom">Subject <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control-custom" id="contactSubject" name="subject" placeholder="e.g. Data Analytics Internship Inquiry" required>
+                    <div class="form-feedback" id="subjectFeedback">Please provide a subject line.</div>
+                  </div>
+
+                  <!-- Message Input -->
+                  <div class="col-12">
+                    <label for="contactMessage" class="form-label-custom">Message <span class="text-danger">*</span></label>
+                    <textarea class="form-control-custom" id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    <div class="form-feedback" id="messageFeedback">Please enter your message (at least 10 characters).</div>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="col-12">
+                    <button type="submit" class="btn-primary-custom w-100 py-3" id="contactSubmitBtn">
+                      <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                    <p class="form-demo-note text-center">
+                      <i class="fa-solid fa-circle-info me-1"></i> Note: This is an interactive frontend demo form. Validated submissions trigger an instant confirmation notice. See <code>README.md</code> to connect Formspree or EmailJS.
+                    </p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="footer-brand">
+            adarsh<span class="brand-dot">.</span>
+          </div>
+          <p class="footer-tagline">
+            Learning, analyzing, and growing through data.
+          </p>
+        </div>
+
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-end gap-2 mb-2">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="GitHub Profile Placeholder" title="GitHub" id="footerGithubLink">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="LinkedIn Profile Placeholder" title="LinkedIn" id="footerLinkedinLink">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-icon-custom" aria-label="Instagram Profile Placeholder" title="Instagram" id="footerInstagramLink">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#home" class="back-to-top-btn" aria-label="Scroll back to top of page" title="Back to top" id="footerBackToTopBtn">
+              <i class="fa-solid fa-arrow-up"></i>
+            </a>
+          </div>
+          <p class="text-secondary small mb-0">
+            &copy; <span id="currentYear">2026</span> Adarsh K. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL 1: Road Guardian Project Deep Dive
+       ======================================================================== -->
+  <div class="modal fade custom-modal" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="projectModal1Label">
+            <i class="fa-brands fa-android text-primary me-2"></i>Road Guardian — Project Overview
+          </h2>
+          <button type="button" class="btn-close btn-close-white-custom" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle me-2">Android Application</span>
+            <span class="badge bg-secondary-subtle text-light border border-secondary-subtle">Academic Degree Project</span>
+          </div>
+          <h3 class="h6 text-white fw-bold">Problem Statement &amp; Purpose</h3>
+          <p class="text-secondary">
+            Road Guardian is an Android application developed using Android Studio to help people report road-related problems such as damaged roads and waterlogging. Users can capture a photograph of the affected location and submit the report through the application to the relevant authority. Once the issue is resolved, the user can receive a notification or message confirming the update.
+          </p>
+          <h3 class="h6 text-white fw-bold mt-4">Key Functional Highlights</h3>
+          <ul class="text-secondary small">
+            <li><strong>Road Damage Reporting:</strong> Structured interface to specify damage type (pothole, crack, blockage).</li>
+            <li><strong>Photo Capture:</strong> Direct camera integration to attach verifiable photographic evidence.</li>
+            <li><strong>Waterlogging Alerts:</strong> Rapid reporting module dedicated to monsoon and drainage hazards.</li>
+            <li><strong>Authority Forwarding:</strong> Routes reports with location coordinates to the relevant municipal authority.</li>
+            <li><strong>Status Notifications:</strong> Keeps the citizen updated when the reported road issue has been inspected or resolved.</li>
+          </ul>
+          <h3 class="h6 text-white fw-bold mt-4">Technologies &amp; Architecture</h3>
+          <p class="text-secondary small mb-1">
+            Built using <strong>Android Studio</strong> and core Android architecture components.
+          </p>
+          <div class="p-2 rounded bg-dark border border-secondary-subtle font-monospace text-light small">
+            // Placeholder Architecture Specification<br>
+            IDE: Android Studio | UI: XML Layouts<br>
+            Language: Java / Kotlin [Customizable]<br>
+            Backend / DB: SQLite / Firebase [Customizable]
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary-custom py-2 px-3 text-sm" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-primary-custom py-2 px-3 text-sm">
+            <i class="fa-brands fa-github"></i> View GitHub (Placeholder)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 2: Exploratory Data Analysis Deep Dive
+       ======================================================================== -->
+  <div class="modal fade custom-modal" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="projectModal2Label">
+            <i class="fa-solid fa-chart-line text-info me-2"></i>Exploratory Data Analysis (EDA) — Overview
+          </h2>
+          <button type="button" class="btn-close btn-close-white-custom" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <span class="badge bg-info-subtle text-info border border-info-subtle me-2">Data Analytics</span>
+            <span class="badge bg-secondary-subtle text-light border border-secondary-subtle">Internship Learning Project</span>
+          </div>
+          <h3 class="h6 text-white fw-bold">Overview &amp; Analytical Workflow</h3>
+          <p class="text-secondary">
+            Performed Exploratory Data Analysis on a dataset to understand its structure, inspect data quality, identify patterns, and extract useful insights. Used Python-based data analysis techniques and visualizations to explore relationships between variables and communicate findings.
+          </p>
+          <h3 class="h6 text-white fw-bold mt-4">Workflow Steps Implemented</h3>
+          <ul class="text-secondary small">
+            <li><strong>Dataset Inspection:</strong> Assessing data shape, column types, and sampling rows via <code>head()</code> and <code>info()</code>.</li>
+            <li><strong>Missing Value &amp; Null Audits:</strong> Quantifying missing entries, heatmap visualization of null fields, and handling imputation.</li>
+            <li><strong>Duplicate &amp; Consistency Checks:</strong> Removing redundant entries and standardizing text/categorical labels.</li>
+            <li><strong>Descriptive Statistics:</strong> Evaluating mean, median, IQR, variance, and distribution shapes via <code>describe()</code>.</li>
+            <li><strong>Data Visualization:</strong> Generating histograms, box plots, scatter charts, and Seaborn heatmaps.</li>
+            <li><strong>Analytical Findings:</strong> Summarizing actionable takeaways from feature correlations.</li>
+          </ul>
+          <h3 class="h6 text-white fw-bold mt-4">Tooling</h3>
+          <div class="p-2 rounded bg-dark border border-secondary-subtle font-monospace text-light small">
+            import pandas as pd<br>
+            import numpy as np<br>
+            import matplotlib.pyplot as plt<br>
+            import seaborn as sns
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary-custom py-2 px-3 text-sm" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-primary-custom py-2 px-3 text-sm">
+            <i class="fa-brands fa-github"></i> View Notebook (Placeholder)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 3: SQL Data Analysis Deep Dive
+       ======================================================================== -->
+  <div class="modal fade custom-modal" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="projectModal3Label">
+            <i class="fa-solid fa-database text-warning me-2"></i>SQL Data Analysis — Template Overview
+          </h2>
+          <button type="button" class="btn-close btn-close-white-custom" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <span class="badge bg-warning-subtle text-warning border border-warning-subtle me-2">Database &amp; SQL</span>
+            <span class="badge bg-secondary-subtle text-light border border-secondary-subtle">Customizable Template</span>
+          </div>
+          <h3 class="h6 text-white fw-bold">Overview</h3>
+          <p class="text-secondary">
+            A data analysis project using MySQL to explore structured datasets, summarize information, apply joins and aggregations, and answer analytical questions using SQL.
+          </p>
+          <h3 class="h6 text-white fw-bold mt-4">Demonstrated SQL Concepts</h3>
+          <ul class="text-secondary small">
+            <li><strong>Aggregations:</strong> <code>COUNT()</code>, <code>SUM()</code>, <code>AVG()</code>, <code>MIN()</code>, <code>MAX()</code> with <code>GROUP BY</code>.</li>
+            <li><strong>Relational Joins:</strong> Multi-table queries utilizing <code>INNER JOIN</code> and <code>LEFT JOIN</code>.</li>
+            <li><strong>Filtering &amp; Slicing:</strong> Conditional evaluation using <code>WHERE</code>, <code>HAVING</code>, and pattern matching.</li>
+            <li><strong>Subqueries &amp; CTEs:</strong> Modular common table expressions for multi-stage metric calculations.</li>
+          </ul>
+          <h3 class="h6 text-white fw-bold mt-4">Sample Query Blueprint</h3>
+          <div class="p-2 rounded bg-dark border border-secondary-subtle font-monospace text-light small">
+            -- Sample analytical aggregation query<br>
+            SELECT category, COUNT(id) AS total_orders, ROUND(AVG(amount), 2) AS avg_ticket<br>
+            FROM transactions<br>
+            GROUP BY category<br>
+            HAVING total_orders &gt; 50<br>
+            ORDER BY avg_ticket DESC;
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary-custom py-2 px-3 text-sm" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-primary-custom py-2 px-3 text-sm">
+            <i class="fa-brands fa-github"></i> View Queries (Placeholder)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 4: Resume Download / Information Modal
+       ======================================================================== -->
+  <div class="modal fade custom-modal" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="resumeModalLabel">
+            <i class="fa-solid fa-file-pdf text-danger me-2"></i>Adarsh K. — Resume
+          </h2>
+          <button type="button" class="btn-close btn-close-white-custom" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center py-4">
+          <div class="mb-3">
+            <i class="fa-solid fa-file-lines fa-3x text-primary"></i>
+          </div>
+          <h3 class="h5 text-white fw-bold">Curriculum Vitae</h3>
+          <p class="text-secondary small mb-3">
+            Adarsh K. &bull; Aspiring Data Analyst &bull; Data Analytics Intern at Softronics, Calicut.
+          </p>
+          <p class="text-light small bg-dark p-3 rounded border border-secondary-subtle text-start">
+            <strong>How to attach your PDF resume:</strong><br>
+            Place your official resume file as <code>assets/Adarsh_K_Resume.pdf</code> and link it in <code>index.html</code>.
+          </p>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn-secondary-custom py-2 px-3 text-sm" data-bs-dismiss="modal">Close</button>
+          <a href="#contact" class="btn-primary-custom py-2 px-3 text-sm" data-bs-dismiss="modal">
+            <i class="fa-regular fa-paper-plane"></i> Request Resume via Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 5: Contact Form Success Confirmation Modal
+       ======================================================================== -->
+  <div class="modal fade custom-modal" id="contactSuccessModal" tabindex="-1" aria-labelledby="contactSuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <button type="button" class="btn-close btn-close-white-custom ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center py-4">
+          <div class="mb-3">
+            <i class="fa-solid fa-circle-check fa-3x text-success"></i>
+          </div>
+          <h3 class="h4 text-white fw-bold mb-2">Message Validated &amp; Ready</h3>
+          <p class="text-secondary small mb-3" id="contactSuccessSummary">
+            Thank you! Your message inputs passed client-side validation successfully.
+          </p>
+          <div class="alert alert-info text-start small mb-0 bg-dark text-info border-info-subtle">
+            <i class="fa-solid fa-circle-info me-1"></i>
+            <strong>Frontend Demo Notice:</strong> No backend server is currently connected to forward this email. To receive actual submissions directly to your inbox, you can easily link this form to <strong>Formspree</strong> or <strong>EmailJS</strong>. Step-by-step instructions are provided in <code>README.md</code>.
+          </div>
+        </div>
+        <div class="modal-footer border-0 justify-content-center pt-0">
+          <button type="button" class="btn-primary-custom py-2 px-4" data-bs-dismiss="modal">
+            Understood
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3 Bundle JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
